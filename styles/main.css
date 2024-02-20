@@ -1,8 +1,32 @@
 * {box-sizing: border-box;}
 body {
-  font-family: Arial, Helvetica, sans-serif;
- margin: 1rem
- paddin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ margin: 1rem;
+ background-color: green;
+ background-image:url('https://th.bing.com/th/id/R.4f961993adde6b9a21ea15954af388b8?rik=qS%2fkVM02sCkang&riu=http%3a%2f%2fbesthqwallpapers.com%2fUploads%2f8-1-2017%2f12052%2fthumb2-playing-cards-4k-quads-aces-poker-chips.jpg&ehk=kQ2XKNyZFcwooCktogcpujVUw0jJE9bxJKUU1X5SKAs%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1') ;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ padding: 0;
 }
-main {margin-block: 1rem;
-background-color:chocolate;}
+
+h1{
+  text-align: center;
+  background-color: white;
+  text-decoration-color: white;
+  
+}
+h2{
+color: red;
+}
+section{
+  color: white;
+  font-family: cursive;
+  width: 500px; 
+  height: 400px; 
+  border: 2px solid white;
+  overflow: auto;
+  margin-left: 2px; 
+  padding: 10px;
+  background-color: black;
+}

@@ -3,12 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> JUEGAZO </title> 
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type = module src="scripts/index.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href= "favicon.svg"> 
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.svg">
+<link rel="manifest" href="favicon.svg">
+    <title> TuJuego </title> 
 </head>
 <body>
   <header> 
+    <h1>
+      <strong> Bienvenido al juego de la carta mas alta </strong>
+    </h1>
   </header>
   <main>
+    <section>
+      <h2> Reglas</h2>
+      <p>
+        Las reglas del juego son muy sencillas.
+      </p>
+        <p>
+          Una vez que empieces el juego aparecera una carta y esa sera tu carta inicial. 
+          Tendras que elegir si la siguiente carta que aparecera sera mayor o menor que tu carta. 
+          Si ganas, tendras la opcion de seguir jugando o dejarlo y 
+          si pierdes tendras la opcion de intentarlo todas las veces que quieras. 
+          El valor de las cartas seguira el siguiente orden, siendo el AS la de mayor valor y el 2 la de menor:
+           AS, K, Q, J, 10, 9, 8 , 7, 6, 5, 4, 3, 2.
+      <form>
+        <p> 
+          Cuando estes preparado, indica tu nombre y dale a "Empezar"
+      </p>
+        <input type = text placeholder="Escribe tu nombre">
+        <button class = b1> Empezar </button>
+      </form>
+    </section>
   </main>
   <footer>
   </footer>

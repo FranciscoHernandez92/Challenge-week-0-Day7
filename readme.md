@@ -1,5 +1,21 @@
 ## CHALLENGE 07
 Juego de Cartas: Mayor o Menor
+Recuperamos el juego del challenge anterior para convertirlo en una aplicación web. La idea es que el usuario pueda jugar desde el navegador y que el juego se ejecute mostrando las interacciones necesarias a traves del HTML.
+
+No usaremos los elementos del API de mensajes emergentes:
+
+alert()
+prompt()
+confirm()
+Tampoco le proporcionamos feedback al usuario a través de la consola.
+
+En su lugar, utilizaremos elementos HTML para mostrar mensajes y obtener respuestas del usuario:
+
+inputs
+botones
+párrafos
+outputs
+etc.
 
 El objetivo del juego es adivinar si la siguiente carta en el mazo es mayor o menor que la carta actual. Se utiliza un mazo de cartas francesas que consta de 52 cartas, divididas en 4 palos: (espadas), (tréboles), (diamantes) y (corazones). Cada palo tiene 13 cartas con los siguientes valores: 2, 3, 4, 5, 6, 7, 8, 9, 10, J (jota), Q (reina), K (rey) y A (as).
 
